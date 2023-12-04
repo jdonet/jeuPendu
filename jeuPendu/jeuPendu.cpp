@@ -9,9 +9,10 @@ Le tableau à deux dimensions contient le dictionnaire de mots et la difficulté
 La fonction doit générer un nombre aléatoire entre 1 et 100 , par exemple 30
 Elle devra alors prendre le 30 ème mot de ce niveau de difficulté
 Attention, si on arrive à la dernière case du tableau (99), il faut revenir au début (0)
+Le mot trouvé doit être renvoyé
 */ 
 std::string choisirMotAleatoire(const std::string mots[100][2], std::string difficulte) {
-
+    return "";
 }
 
 /*
