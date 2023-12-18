@@ -33,7 +33,8 @@ void verifierLettre(std::string motChoisi, char lettre, std::string& lettresTrou
 }
 
 /*
-Fonction renvoyant un booléen à vrai si toutes les lettres du mot à trouver ont été trouvées et faux sinon
+Si toutes les lettres ont été trouvées, on affiche  "Felicitation ! Vous avez devine le mot : " + motChoisi et on renvoie true,
+sinon on renvoie false
 */
 bool verifierGagne(std::string& motChoisi, std::string& lettresTrouvees)
 {
